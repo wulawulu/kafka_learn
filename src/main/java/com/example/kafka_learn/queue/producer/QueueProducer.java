@@ -1,4 +1,4 @@
-package com.example.kafka_learn.queue.provider;
+package com.example.kafka_learn.queue.producer;
 
 import com.example.kafka_learn.queue.QueueCallback;
 import com.example.kafka_learn.queue.msg.QueueMsg;
