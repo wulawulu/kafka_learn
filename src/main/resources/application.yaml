@@ -1,0 +1,4 @@
+service:
+  type: monolith
+queue:
+  type: in-memory

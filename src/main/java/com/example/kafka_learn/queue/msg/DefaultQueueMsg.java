@@ -18,4 +18,10 @@ public class DefaultQueueMsg implements QueueMsg {
         this.headers = headers;
     }
 
+    public DefaultQueueMsg(String data) {
+        this.data = data.getBytes();
+        this.key = UUID.randomUUID();
+        this.headers = new QueueMsgHeaders();
+    }
+
 }
